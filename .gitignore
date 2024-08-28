@@ -4,3 +4,10 @@
 
 /.vs
 /TestLite27/obj
+/Application/bin/Debug/net8.0
+/Application/obj
+/Domain/obj
+/Infrastructure/bin/Debug/net8.0
+/Infrastructure/obj
+/TestLite27/bin/Debug/net8.0
+/Domain/bin/Debug/net8.0
