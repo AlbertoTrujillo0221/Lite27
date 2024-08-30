@@ -11,3 +11,9 @@
 /Infrastructure/obj
 /TestLite27/bin/Debug/net8.0
 /Domain/bin/Debug/net8.0
+/Application/bin/Release/net8.0
+/Domain/bin/Release/net8.0
+/Infrastructure/bin/Release/net8.0
+/TestLite27/bin/Release/net8.0
+/WorkerService/bin
+/WorkerService/obj

@@ -21,5 +21,36 @@ namespace Application.Services
 
             return response;
         }
+
+        public async Task Create()
+        {
+            Console.WriteLine("Entro al create");
+            var transactions = await genericRepository.GetAll();
+
+            var response = transactions.Select(x =>
+            {
+                return new TransactionDto
+                {
+                    Id = x.Id,
+                    Value = x.Value,
+                };
+            });
+        }
+
+        public async Task<IEnumerable<TransactionDto>> Update()
+        {
+            var transactions = await genericRepository.GetAll();
+
+            var response = transactions.Select(x =>
+            {
+                return new TransactionDto
+                {
+                    Id = x.Id,
+                    Value = x.Value,
+                };
+            });
+
+            return response;
+        }
     }
 }

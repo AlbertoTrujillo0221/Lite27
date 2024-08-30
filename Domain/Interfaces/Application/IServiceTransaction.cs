@@ -5,5 +5,6 @@ namespace Domain.Interfaces.Application
     public interface IServiceTransaction
     {
         Task<IEnumerable<TransactionDto>> GetAll();
+        Task Create();
     }
 }
